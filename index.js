@@ -50,4 +50,5 @@ const getTempo_Cidade = async (city) => {
 };
 
 // Teste
-getTempo_Cidade('São Paulo');
+getTempo_Cidade('Bruxelas');
+getCordenadas('Bruxelas').then(coords => console.log(coords));
